@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src='js/index.js'></script>
+
+<body>
+    <div class="wrapper">
+        <header><span><</span><span>添加成员</span><span></span></header>
+        <section>
+            <ul class="list">
+                <li><span>姓名</span><input type="text" class='name'></li>
+                <li><span>年龄</span><input type="text" class='ages'></li>
+                <li><span>手机号</span><input type="text" class='phone'></li>
+                <li><span>地址</span><input type="text" class='address'></li>
+                <li><span>身份证号</span><input type="text" class='card'></li>
+            </ul>
+            <div class="btn">
+                <button id='sure'>确认</button>
+
+            </div>
+        </section>
+    </div>
+    <script>
+        var ages = document.querySelector('.ages');
+        var address = document.querySelector('.address');
+        var card = document.querySelector('.card');
+        var phone = document.querySelector('.phone');
+        var sure = document.getElementById('sure');
+
+        // sure.onclick = function() {
+        //     var xhr = new XMLHttpRequest();
+        //     xhr.onload = function(e) {
+        //         console.log(e.target.responseText)
+        //     }
+        //     xhr.open('post', '/api/list');
+        //     xhr.setRequestHeader('concent-type', 'application/json');
+        //     xhr.send({
+        //         "name": name.value,
+        //         "age": ages.value,
+        //         "phone": phone.value,
+        //         "address": address.value,
+        //         "card": card.value
+        //     })
+        // }
+    </script>
+</body>
+
+
+</html>

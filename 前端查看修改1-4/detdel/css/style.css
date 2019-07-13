@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.wrapper header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.wrapper header span {
+    width: 50%;
+}
+
+.wrapper section {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.wrapper section .list li {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.wrapper section .list li span {
+    width: 35%;
+}
+
+.wrapper section .list li input {
+    border: 0;
+    line-height: 30px;
+}
+
+.wrapper section .btn {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper section .btn button {
+    width: 60px;
+    height: 40px;
+    background: #077;
+    color: #fff;
+    border: 0;
+}
